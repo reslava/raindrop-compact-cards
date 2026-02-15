@@ -451,6 +451,12 @@ Edit the `style.cssText` in the JavaScript to change position, colors, or font.
 - **Dropdown doesn't appear?**  
   Ensure the userscript is correctly installed and matches the Raindrop URL (`https://app.raindrop.io/*`).
 
+## 🙏 Acknowledgements
+
+Special thanks to the creators of [Raindrop.io](https://raindrop.io) for building such a fantastic bookmarking tool. Their clean design, powerful features, and open spirit made this customization project possible and enjoyable.
+
+If you haven't tried Raindrop.io yet, I highly recommend it – it's a game‑changer for organizing bookmarks across all devices.
+
 ## 📄 License
 
 MIT – use freely, modify, share.
