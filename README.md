@@ -1,20 +1,39 @@
-Absolutely! Here's the updated `README.md` for your GitHub repository, reflecting all the latest features:
-
----
-
 # 🌧️ Raindrop.io Compact Cards – with Favicon & Cover Toggle
 
 Custom CSS + JavaScript to transform [Raindrop.io](https://raindrop.io) bookmarks into a dense, icon‑like grid.  
 Choose between five display modes: **Default**, **Favicon 32**, **Favicon 64**, **Cover 80**, or **Cover 120**.  
 Your preference is saved automatically.
 
-
-<img src="imgs/default.png" alt="Default" width="400">
-<img src="imgs/favicon32.png" alt="Favicon 32" width="400">
-<img src="imgs/favicon64.png" alt="Favicon 64" width="400">
-<img src="imgs/cover80.png" alt="Cover 80" width="400">
-<img src="imgs/cover120.png" alt="Cover 120" width="400">
-
+<div align="center">
+  <h3>Five Display Modes</h3>
+  <table style="border-collapse: collapse; border: none;">
+    <tr>
+      <td style="border: none; padding: 10px;" align="center">
+        <img src="imgs/default.png" width="350" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <br><strong>Default</strong>
+      </td>
+      <td style="border: none; padding: 10px;" align="center">
+        <img src="imgs/favicon32.png" width="350" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <br><strong>Favicon 32</strong>
+      </td>
+      <td style="border: none; padding: 10px;" align="center">
+        <img src="imgs/favicon64.png" width="350" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <br><strong>Favicon 64</strong>
+      </td>
+    </tr>
+    <tr>
+      <td style="border: none; padding: 10px;" align="center">
+        <img src="imgs/cover80.png" width="350" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <br><strong>Cover 80</strong>
+      </td>
+      <td style="border: none; padding: 10px;" align="center">
+        <img src="imgs/cover120.png" width="350" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <br><strong>Cover 120</strong>
+      </td>
+      <td style="border: none; padding: 10px;"></td> <!-- empty cell for alignment -->
+    </tr>
+  </table>
+</div>
 
 ## ✨ Features
 
