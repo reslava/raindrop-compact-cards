@@ -1,0 +1,107 @@
+/* ===== BASE COMPACT STYLES ===== */
+/* Applied only when .rdp-compact is present */
+.rdp-compact .grid-OxqP {
+    --grid-item-width: 120px; /* fallback, overridden by size classes */
+}
+
+.rdp-compact .wrap-Qx8h {
+    height: calc(var(--grid-item-width) * 0.75) !important;
+}
+
+/* Title */
+.rdp-compact .title-yyxF {
+    display: block !important;      /* Change to 'none' to hide */
+    font-size: 9px !important;
+    line-height: 1.2 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    margin-top: 2px !important;
+}
+
+/* Tags */
+.rdp-compact .tags-J0JZ {
+    display: none !important;      /* Change to 'none' to hide */
+    font-size: 8px !important;
+    margin-top: 2px !important;
+}
+
+/* Hide description (except when it contains tags), info line, buttons, checkbox */
+.rdp-compact .about-X3Q4 .description-G1ZJ:not(:has(.tags-J0JZ)),
+.rdp-compact .about-X3Q4 .info-drai,
+.rdp-compact .actions-wrq5,
+.rdp-compact .select-BIuO {
+    display: none !important;
+}
+
+/* Remove card borders/shadows */
+.rdp-compact .element-DxJD {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 2px !important;
+}
+
+/* ===== SIZE CLASSES ===== */
+/* Cover 80 (small) */
+.rdp-compact.card-size-small .grid-OxqP {
+    --grid-item-width: 80px !important;
+}
+.rdp-compact.card-size-small .wrap-Qx8h {
+    height: 60px !important;
+}
+
+/* Cover 120 (medium) */
+.rdp-compact.card-size-medium .grid-OxqP {
+    --grid-item-width: 120px !important;
+}
+.rdp-compact.card-size-medium .wrap-Qx8h {
+    height: 90px !important;
+}
+
+/* ===== FAVICON MODE ===== */
+.rdp-favicon .wrap-Qx8h.grid-ow0F {
+    display: none !important; /* hide original cover */
+}
+
+.rdp-favicon .rdp-favicon-wrap {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: transparent !important;
+    margin: 0 auto;
+}
+
+.rdp-favicon .rdp-favicon-img {
+    object-fit: contain;
+}
+
+/* Favicon 32 */
+.rdp-favicon.card-size-favicon32 .grid-OxqP {
+    --grid-item-width: 48px !important;
+}
+.rdp-favicon.card-size-favicon32 .rdp-favicon-wrap {
+    width: 100%;
+    height: 100%;
+}
+.rdp-favicon.card-size-favicon32 .rdp-favicon-img {
+    width: 32px !important;
+    height: 32px !important;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+/* Favicon 64 */
+.rdp-favicon.card-size-favicon64 .grid-OxqP {
+    --grid-item-width: 80px !important;
+}
+.rdp-favicon.card-size-favicon64 .rdp-favicon-wrap {
+    width: 100%;
+    height: 100%;
+}
+.rdp-favicon.card-size-favicon64 .rdp-favicon-img {
+    width: 64px !important;
+    height: 64px !important;
+    max-width: 64px;
+    max-height: 64px;
+}
