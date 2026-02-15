@@ -435,8 +435,3 @@ Edit the `style.cssText` in the JavaScript to change position, colors, or font.
 ## 📄 License
 
 MIT – use freely, modify, share.
-
----
-
-Enjoy your perfectly customized Raindrop.io!  
-If you have questions or ideas, feel free to [open an issue](../../issues).
